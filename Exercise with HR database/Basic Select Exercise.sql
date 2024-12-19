@@ -7,7 +7,7 @@ Select FIRST_NAME, LAST_NAME, DEPARTMENT_ID
 FROM employees;
 
 -- The DISTINCT keyword ensures that only unique values of department_id are returned, eliminating duplicates.
-Select DISTINCT DEPARTMENT_ID
+Select DISTINCT DEPARTMENT_ID  
 FROM employees;
 
 -- 3) Write a query to get all employee details from the employee table order by first name, descending.
