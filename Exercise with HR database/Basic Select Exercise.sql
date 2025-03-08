@@ -10,6 +10,18 @@ FROM employees;
 Select DISTINCT DEPARTMENT_ID  
 FROM employees;
 
+Select * 
+FROM employees;
+
+Select * 
+FROM departments;
+
+Select * 
+FROM locations;
+
+Select count(EMPLOYEE_ID)
+FROM employees;
+
 -- 3) Write a query to get all employee details from the employee table order by first name, descending.
 Select *
 FROM employees
